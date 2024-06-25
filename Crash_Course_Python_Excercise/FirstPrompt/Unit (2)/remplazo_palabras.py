@@ -1,3 +1,5 @@
+#la idea era que sea mas sencillo, pero me gusto implementar el if. para incorporar el segundo nombre, si es que tiene.
+
 text = input ('\ningrese una frase\n')
 
 string = text.split()
@@ -8,7 +10,7 @@ new_str = input ('\nelija la palabra nueva\n')
 
 if del_str in string:  
 
-    indice = string.index(del_str)
+    indice = string.index(del_str) #la funcion .index () lo tuve que buscar por google. 
 
     string [indice] = new_str
 
